@@ -12,8 +12,26 @@
     <title>Heyu</title>
 </head>
 <body>
+<!-- button to back up starts-->
+<a href="##" class="backToTop"><i class="fas fa-arrow-up"></i></a>
+<!--button to back up ends-->  
+<!-- modal starts -->
+<div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <form action="">
+            <input type="text" placeholder="Search.." class="form-control subscribeInput">
+          </form>
+          
+        </div>
+      </div>
+    </div>
+</div>
+  <!--modal ends-->
+
   <!--navbar starts-->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark scrollNav">
       <a class="navbar-brand" href="#">
         <img src="assets/img/logo.png" alt="HeyU Logo">
       </a>
@@ -39,7 +57,7 @@
             <a class="nav-link" href="#">Blog</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="#" data-toggle="modal" data-target="#searchModal">
               <i class="fas fa-search"></i>
             </a>
           </li>
@@ -50,9 +68,9 @@
     </nav>
   <!--navbar ends-->
   
-        <!--main section starts-->
+  <!--main section starts-->
 
-        <div class="mainSection">
+  <div class="mainSection">
             <div class="absolute"></div>
             <div class="container">
               <div class="row">
@@ -65,13 +83,313 @@
                   </span>
                   <a href="##" class="btn btn-light">Download now</a>
                 </div>
-                <div class="col-sm-6 text-right align-self-end">
+                <div class="col-sm-6 text-right align-self-lg-end align-self-md-center">
                   <img class="img-fluid" src="assets/img/mobile1.png" alt="Heyu Mobile App">
                 </div>
               </div>
             </div>
 
+  </div>
+  <!--main section ends-->
+
+  <!--second section starts-->
+  <div class="section featureSection">
+    <div class="container">
+      <div class="row ">
+        <div class="col-lg-6 col-md-12  featureItem">
+            <img class="img-fluid" src="assets/img/mock1.png">
+          
         </div>
+        <div class="col-lg-6 col-md-12 align-self-center featureItem ">
+            <h2>Easy messege<span class="redDot">.</span></h2>
+            <p class="featureDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero magnam eaque ea cumque distinctio unde sapiente consequuntur culpa. Delectus explicabo provident commodi facere facilis fuga voluptas laboriosam natus nesciunt. Nobis.</p>
+          
+        </div>
+      </div>
+      <div class="row">
+        <div class="order-md-2 order-lg-1 col-lg-6 col-md-12 align-self-center featureItem ">
+            <h2>Keep in touch<span class="redDot">.</span></h2>
+            <p class="featureDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero magnam eaque ea cumque distinctio unde sapiente consequuntur culpa. Delectus explicabo provident commodi facere facilis fuga voluptas laboriosam natus nesciunt. Nobis.</p>
+          
+        </div>
+        <div class="order-md-2 order-lg-1 col-lg-6 col-md-12  featureItem">
+            <img class="img-fluid" src="assets/img/mock2.png">
+            
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--second section ends-->
+  <hr>
+
+  <!--bubbles section starts-->
+  <div class="section bubbleSection">
+    <div class="container">
+      <h2>What people say<span class="redDot">.</span>
+      </h2>
+      <div class="row">
+
+        <div class="col-lg-4 col-md-12 testItem">
+          <div class="speechBubble">
+            <div class="triangle">
+              <div class="innerTriangle"></div>
+            </div>
+            <p>Lorem ipsum dolor sit amet, onsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae reprehenderit suscipit, voluptates
+                neque consequuntur dolores quibusdam magni debitis possimus iusto consequatur modi praesentium labore esse necessitatibus
+                sequi sint voluptatem sunt?</p>
+            <span class="redDot">booking.com</span>
+          
+          </div>
+            
+          <div class="bubbleDesc" >
+            <div class="bubbleImg float-left">
+              <img class="rounded-circle" src="assets/img/john.png" >
+            </div>
+            <div class="bubbleInfo float-left">
+                <h3>John Doe</h3>
+                <span>CEO</span>
+            </div>
+            
+          </div>
+          
+          
+          <div class="clearfixed"></div>
+        </div>
+
+        <div class="col-lg-4 col-md-12 testItem" >
+            <div class="speechBubble">
+              <div class="triangle">
+                <div class="innerTriangle"></div>
+              </div>
+              <p>Lorem ipsum dolor sit amet, onsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                  aliqua. Ut enim ad minim Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae reprehenderit suscipit, voluptates
+                  neque consequuntur dolores quibusdam magni debitis possimus iusto consequatur modi praesentium labore esse necessitatibus
+                  sequi sint voluptatem sunt?</p>
+              <span class="redDot">booking.com</span>
+            
+            </div>
+              
+            <div class="bubbleDesc" >
+              <div class="bubbleImg float-left">
+                <img class="rounded-circle" src="assets/img/john.png" >
+              </div>
+              <div class="bubbleInfo float-left">
+                  <h3>John Doe</h3>
+                  <span>CEO</span>
+              </div>
+              
+            </div>
+            
+            
+            <div class="clearfixed"></div>
+        </div>
+
+        <div class="col-lg-4 col-md-12 testItem">
+              <div class="speechBubble">
+                <div class="triangle">
+                  <div class="innerTriangle"></div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, onsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae reprehenderit suscipit, voluptates
+                    neque consequuntur dolores quibusdam magni debitis possimus iusto consequatur modi praesentium labore esse necessitatibus
+                    sequi sint voluptatem sunt?</p>
+                <span class="redDot">booking.com</span>
+              
+              </div>
+                
+              <div class="bubbleDesc" >
+                <div class="bubbleImg float-left">
+                  <img class="rounded-circle" src="assets/img/john.png" >
+                </div>
+                <div class="bubbleInfo float-left">
+                    <h3>John Doe</h3>
+                    <span>CEO</span>
+                </div>
+                
+              </div>
+              
+              
+              <div class="clearfixed"></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!--bubbles section ends-->
+
+  <!--red  section starts-->
+  <div class="section redSection">
+    <div class="container">
+      <div class="row largeScreen">
+        <div class="col rtl align-self-center d-none d-lg-block">
+          <div class="media">
+            <span class="align-self-start ml-3"><i class="far fa-comments"></i></span>
+            <div class="media-body">
+              <h5 class="mt-0 mb-1">Start conversation</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed 
+                do eiusmod tempor incididunt u</p>
+            </div>
+            
+          </div>
+
+          <div class="media mt-4">
+              <span class="align-self-start ml-3"><i class="fas fa-phone"></i></span>
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Make a free call</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt u</p>
+              </div>
+              
+          </div>
+        </div>
+        <div class="col phone d-none d-lg-block" >
+          <img src="assets/img/phone2.png"  alt="phone">
+        </div>
+        <div class="col  align-self-center d-none d-lg-block">
+            <div class="media">
+              <span class="align-self-start ml-3"><i class="fas fa-camera"></i></span>
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Take a picture</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed 
+                  do eiusmod tempor incididunt u</p>
+              </div>
+              
+            </div>
+  
+            <div class="media mt-4">
+                <span class="align-self-start ml-3"><i class="fas fa-video"></i></span>
+                <div class="media-body">
+                  <h5 class="mt-0 mb-1">Send your video</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt u</p>
+                </div>
+                
+            </div>
+          </div>
+      </div>
+      <div class="row smallScreen">
+				<div class=" col-sm-4 d-none d-sm-block d-lg-none">
+					<img src="assets/img/phone2.png" class="img-fluid" alt="">
+				</div>
+				<div class="col-sm-8 my-4 d-none d-sm-block d-lg-none">
+					<div class="media">
+						<span class="align-self-start mr-3">
+							<i class="far fa-comments"></i>
+						</span>
+						<div class="media-body">
+							<h5 class="mt-0">Start Conversation</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt u</p>
+						</div>
+					</div>
+					<div class="media mt-4">
+						<span class="align-self-start mr-3">
+							<i class="fas fa-phone"></i>
+						</span>
+						<div class="media-body">
+							<h5 class="mt-0">Make free call</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt u</p>
+						</div>
+					</div>
+					<div class="media">
+						<span class="align-self-start mr-3">
+							<i class="fas fa-camera"></i>
+						</span>
+						<div class="media-body">
+							<h5 class="mt-0">Take a picture</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt u</p>
+						</div>
+					</div>
+					<div class="media mt-4">
+						<span class="align-self-start mr-3">
+							<i class="fas fa-video"></i>
+						</span>
+						<div class="media-body">
+							<h5 class="mt-0">Send your Video</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt u</p>
+						</div>
+					</div>
+				</div>
+			</div>
+    </div>
+  </div>
+  <!--red section ends-->
+
+  <!--subscribe section starts-->
+  <div class="section subscribeSection">
+    <div class="container">
+      <h2>Subscribe to our newsletter</h2>
+      <span class="innerTitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</span>
+      <div class="row">
+        <div class="col-lg-8 col-md-12 offset-lg-2">
+            <form class="subscribeForm" action="">
+              <div class="form-group">
+                  <input type="email" placeholder="Enter your email" class="form-control subscribeInput">
+                  <button class="btnSubscribe">Subscribe</button>
+              </div>
+                
+            </form>
+        </div>
+       
+      </div>
+    </div>
+    
+  </div>
+  <hr>
+  <!--subscribe section ends-->
+ 
+
+  <!--download section starts-->
+  <div class="section downloadSection">
+  <div class="container">
+    <div class="text-center Applogo">
+        <img src="assets/img/Applogo.png" alt="logo heyu">
+    </div>
+    <h2>Download the app<span class="redDot">.</span></h2>
+    <span class="innerTitle">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+      </span>
+      <div class="text-center"><a><img  src="assets/img/appstore.png" alt="app store"></a></div>
+       
+
+  </div>
+</div>
+  <!--download section ends-->
+  <hr>
+
+  <!--footer section starts-->
+  <div class="section footerSection">
+    <div class="container-fluid">
+        <ul class="nav float-left">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">support</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Download</a>
+            </li>
+          </ul>
+        <ul class="languageDropdown float-right">
+          <select>
+            <option>English</option>
+            <option>Arabic</option>
+          </select>
+        </ul>
+        <div class="clearfix"></div>
+    </div>
+  </div>
+  
+  <!--footer section ends-->
+
+
+
 <script src="assets/js/jquery-3.3.1.min.js"></script>
 <script src="assets/js/popper.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
